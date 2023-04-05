@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Tests</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col offset-m3 s12 m6">
+                <div class="card center-align">
+                    <div class="card-image">
+                        <img src="resources/rick-astley-never-gonna-give-you-up.gif">
+                        <span class="card-title">Never gonna give you up</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Ao clicar no botão abaixo, vamos verificar todas as implementações.</p>
+                    </div>
+                    <div class="card-action">
+                        <a id="run-tests" class="waves-effect waves-light btn">Vamos à isso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Resultado</h4>
+            <div id="test-results" class="collection"></div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+        </div>
+    </div>
+
+    <script src="scripts/challenges.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
